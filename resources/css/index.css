@@ -1,0 +1,37 @@
+* {
+  background-color: black;
+  font-family: Helvetica, sans-serif;
+  /* font-size: 22px; */
+  color: seashell;
+  opacity: 0.9;
+}
+
+header {
+
+
+}
+
+ul {
+    text-align: right;
+
+}
+
+.navigation li {
+    display: inline-block;
+    list-style: none;
+    font-size: 22px;
+} 
+
+ 
+.navigation {
+    display: block;
+    margin: 0px auto;
+    align-content: center;
+} 
+
+
+
+
+
+
+
