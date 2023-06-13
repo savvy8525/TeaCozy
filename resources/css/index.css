@@ -7,13 +7,16 @@
 }
 
 header {
-
-
+    position: fixed;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+    z-index: 1;
+    height: 69px;
 }
 
 ul {
     text-align: right;
-
+    float: right;
 }
 
 .navigation li {
@@ -25,9 +28,12 @@ ul {
  
 .navigation {
     display: block;
-    margin: 0px auto;
     align-content: center;
 } 
+
+.logo {
+    height: 50px;
+}
 
 
 
