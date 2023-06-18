@@ -1,12 +1,15 @@
 * {
   background-color: black;
   font-family: Helvetica, sans-serif;
-  font-size: 22px;
   color: seashell;
   opacity: 0.9;
   margin: 0;
 }
 
+html {
+    display: flex;
+    justify-content: center;
+}
 
 header {
     display: flex;
@@ -16,108 +19,80 @@ header {
     width: 100%;
     height: 69px;
     align-items: center;
-}
-
-
-.logo {
-    height: 50px;
-    
-}
-
-ul {
-
-}
-
-/* .navigation {
-    margin: right;
-} */
-.navigation li {
-    display: inline-block;
-    list-style: none;
-    font-size: 22px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* header {
-    display: block;
-    position: fixed;
     border-bottom: 1px solid seashell;
-    width: 100%;
-    z-index: 1;
-    margin: 0 auto;
-    height: 69px;
-    background-color: black;
-    justify-content: center;
+}
+
+.logo {
+    height: 50px;
+    margin-left: 10px;
 }
 
 ul {
-    text-align: right;
-    float: right;
+    margin-right: 10px;
 }
 
 .navigation li {
     display: inline-block;
     list-style: none;
     font-size: 22px;
-} 
-
- 
-.navigation {
-    display: block;
-    align-content: center;
-} 
-
-.logo {
-    height: 50px;
 }
 
+.mission {
+    top: 69px;
+    padding: 69px;
 
-.background {
+}
+
+.mission-background {
+    display: flex;
     background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
     background-size: 1200px 700px;
-    height: 700px;
     width: 1200px;
-    position: relative;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
 }
-
-
-.mission {  
-    font-size: 22px;
+.mission-content {
     text-align: center;
-    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
-    background-size: 1200px 700px;
-    background-position: top 69px center;
-    height: 700px;
     width: 1200px;
+    justify-content: center;
+    padding: 10px;
 }
 
+.featured-tea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 69px;
+    top: 69px;
+}
 
+.tea-content h2, h4 {
+    text-align: center;
+    padding: 10px;
+}
 
+.tea-content {
+    width: 1000px;
+    padding: 10px;
+    opacity: 0.9;
+}
 
+.tea-selection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 
+.tea-types {
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+}
 
- */
+figcaption {
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 22px;
+}
